@@ -333,7 +333,7 @@ window#waybar.hidden {
 /* } */
 @keyframes blink-bg {
   0% {
-    background: @theme_base_color;
+    background: @green;
   }
   25% {
     background: @red;
@@ -342,22 +342,22 @@ window#waybar.hidden {
     background: @teal;
   }
   75% {
-    background: @mavue;
+    background: @blue;
   }
   100% {
-    background: @theme_base_color;
+    background: @green;
   }
 }
 
 #custom-blink {
   background: @theme_base_color;
 
-  animation: blink-bg 30s linear infinite;
+  animation: blink-bg 20s linear infinite;
   transition-timing-function: ease-in-out;
   transition-duration: 1s;
 
   font-size: 0;
-  padding: 0 400px;
+  padding: 15px 1150px;
   border-radius: 10px;
 }
 
@@ -374,5 +374,9 @@ window#waybar.hidden {
 
 .bottom .modules-center {
   margin: 0;
+  padding: 0;
+}
+
+.eDP-1 #custom-blink {
   padding: 0;
 }

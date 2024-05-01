@@ -54,7 +54,7 @@
 "margin-bottom": 1,
 
 "modules-left": [
-	"wlr/taskbar",
+	"hyprland/window",
 ],
 
 "modules-center": [
@@ -62,7 +62,6 @@
 ],
 
 "modules-right": [
-	"hyprland/window",
 	"custom/separator#blank_1",
 	"custom/swaync",
 	"mpris",
