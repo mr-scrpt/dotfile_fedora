@@ -1,0 +1,16 @@
+--2024-05-06 12:07:14--  https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_arm64.tar.gz
+Распознаётся github.com (github.com)… 140.82.121.3
+Подключение к github.com (github.com)|140.82.121.3|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 302 Found
+Адрес: https://objects.githubusercontent.com/github-production-release-asset-2e65be/43225113/d4247b05-61dd-413d-bb9a-4b5ddb240c6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240506%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240506T090629Z&X-Amz-Expires=300&X-Amz-Signature=1725f7f27c2d238cacb85a37a530454660df8c6ca6110f2a1d0458ff00d5eabc&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=43225113&response-content-disposition=attachment%3B%20filename%3Dyq_linux_arm64.tar.gz&response-content-type=application%2Foctet-stream [переход]
+--2024-05-06 12:07:14--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/43225113/d4247b05-61dd-413d-bb9a-4b5ddb240c6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240506%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240506T090629Z&X-Amz-Expires=300&X-Amz-Signature=1725f7f27c2d238cacb85a37a530454660df8c6ca6110f2a1d0458ff00d5eabc&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=43225113&response-content-disposition=attachment%3B%20filename%3Dyq_linux_arm64.tar.gz&response-content-type=application%2Foctet-stream
+Распознаётся objects.githubusercontent.com (objects.githubusercontent.com)… 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Подключение к objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: 3767039 (3,6M) [application/octet-stream]
+Сохранение в: «STDOUT»
+
+-                                            0%[                                                                                         ]       0  --.-KB/s               -                                           26%[======================>                                                                  ] 959,83K  4,57MB/s               -                                           99%[=======================================================================================> ]   3,56M  8,79MB/s               -                                          100%[========================================================================================>]   3,59M  8,84MB/s    за 0,4s    
+
+/2024-05-06 12:07:15 (8,84 MB/s) - записан в stdout [3767039/3767039]
+

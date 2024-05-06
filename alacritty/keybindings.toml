@@ -29,4 +29,6 @@ bindings = [
   { key = "Key8", mods = "Alt|Control", chars = "\u000e8" }, #                ... 8
   { key = "Key9", mods = "Alt|Control", chars = "\u000e9" }, #                ... 8
 
+
+  # { key = "A", mods = "Alt|Control", chars = "\u001es" }, # save session
 ]
