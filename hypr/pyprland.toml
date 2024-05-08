@@ -1,0 +1,18 @@
+[pyprland]
+
+plugins = [
+  "scratchpads",
+  "magnify",
+]
+
+[scratchpads.filemanager]
+animation = "fromTop"
+command = "alacritty --class kitty-dropterm -e fish -l -c lfnc"
+class = "kitty-dropterm"
+size = "75% 50%"
+
+[scratchpads.filemanager]
+animation = "fromTop"
+command = "alacritty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "60% 50%"

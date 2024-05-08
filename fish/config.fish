@@ -9,7 +9,6 @@ if status is-interactive
   # aliases
   # alias lf="lfcomb"
   alias c="clear"
-  alias lf 'env TERM=screen-256color lfub'
 
   if type -q eza
     alias ll "eza -l -g --icons"

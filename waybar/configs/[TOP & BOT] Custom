@@ -41,7 +41,6 @@
 {
 "include": "~/.config/waybar/modules",
 "layer": "bottom",
-//"mode": "dock",
 "exclusive": true,
 "passthrough": false,
 "position": "bottom",
@@ -53,9 +52,6 @@
 "margin-right": 8,
 "margin-bottom": 1,
 
-"modules-left": [
-	"hyprland/window",
-],
 
 "modules-center": [
 	"custom/blink",

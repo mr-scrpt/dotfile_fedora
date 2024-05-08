@@ -6,10 +6,9 @@ font-family: "JetBrainsMono Nerd Font";
 font-weight: bold;
 min-height: 0;
 /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-/*font-size: 97%;*/
-font-size: 100%;
+font-size: 97%;
 font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-/*padding: 1px;*/
+padding: 1px;
 }
 
 window#waybar {
@@ -39,8 +38,8 @@ window#waybar.empty #window {
 tooltip {
 	background: #1e1e2e;
 	opacity: 0.8;
-	border-radius: 6px;
-	/*border-width: 2px;*/
+	border-radius: 10px;
+	border-width: 2px;
 	border-style: solid;
 	border-color: #11111b;
 }
@@ -73,7 +72,7 @@ tooltip label{
 #workspaces,
 #custom-backlight,
 #custom-cycle_wall,
-#custom-keybinds,
+#custom-hint,
 #custom-keyboard,
 #custom-light_dark,
 #custom-lock,
@@ -93,16 +92,13 @@ tooltip label{
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-	border-radius: 12px;
+	border-radius: 16px;
   	color: #3A3B3C;
-  	/*border: 1px solid #b4befe;*/
-	/*display: flex;*/
-	margin: 0 2px;
-	padding: 2px 8px;
-	/*padding-top: 3px;
+  	border: 1px solid #b4befe;
+	padding-top: 3px;
 	padding-bottom: 3px;
     padding-left: 6px;
-    padding-right: 6px;*/
+    padding-right: 6px;
 }
 
 #backlight {
@@ -177,10 +173,9 @@ tooltip label{
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    margin: 0 2px;
     border-radius: 9px;
     padding-left: 4px;
-    padding-right: 5px;
+    padding-right: 4px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -193,7 +188,6 @@ tooltip label{
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
-
 
 #workspaces button:hover {
     background: #eb6f92;
@@ -232,14 +226,12 @@ tooltip label{
 	padding-right: 10px;
 	border-radius: 16px;
   	color: #3A3B3C;
-  	/*border: 1px solid #b4befe;*/
+  	border: 1px solid #b4befe;
 }
 
 #custom-power {
 	background-color: #f38ba8;
-	/*padding: 0px 0px 0px 6px;*/
-	padding-left: 13px;
-	padding-right: 8px;
+	padding: 0px 0px 0px 6px;
 }
 
 #custom-updater {
@@ -289,7 +281,7 @@ tooltip label{
 	background-color: #89dceb;
 }
 
-#custom-keybinds,
+#custom-hint,
 #pulseaudio {
 	background-color: #fab387;
 }
