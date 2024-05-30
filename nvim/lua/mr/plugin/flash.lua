@@ -2,7 +2,16 @@ return {
 	"folke/flash.nvim",
 	event = "VeryLazy",
 	config = function()
-		require("flash").setup({
+		local flash = require("flash")
+		flash.setup({
+			modes = {
+				char = {
+					jump_labels = true,
+				},
+				search = {
+					enabled = true,
+				},
+			},
 			opts = {},
 			keys = {
 				{
@@ -11,6 +20,7 @@ return {
 					function()
 						require("flash").jump({
 							search = {
+								enable = true,
 								mode = function(str)
 									return "\\<" .. str
 								end,
